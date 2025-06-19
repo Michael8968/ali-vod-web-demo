@@ -47,6 +47,11 @@ export default function HomePage() {
             args: [false, getTime, saveTime],
           },
         ],
+        license: {
+            // 使用在准备工作中获取到的网站域名domain和License Key
+            domain: "github.com", // 申请 License 时填写的域名
+            key: "8PER8oE5YRDo24L4Yf9a7a6be8de3426791b6622fb0db7c38" // 申请成功后，在控制台可以看到 License Key
+        }
       },
       (_player: typeof Aliplayer) => {
         //播放下一个视频
